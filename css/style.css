@@ -85,7 +85,7 @@ body {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 2.64px;
-  padding: 200px 452px 30px;
+  /* padding: 200px 452px 30px; */
 }
 .section-first button {
   background-color: var(--color-brand);
@@ -99,7 +99,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.96px;
   padding: 10px 32px;
-  margin: 0px 0px 200px;
+  /* margin: 0px 0px 200px; */
 }
 .section-second {
 }
