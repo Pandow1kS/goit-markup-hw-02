@@ -43,7 +43,6 @@ body {
 }
 .header-link:hover {
   color: var(--color-brand);
-  cursor: pointer;
 }
 .contact-link {
   color: var(--color-secondary);
@@ -52,7 +51,6 @@ body {
 }
 .contact-link:hover {
   color: var(--color-brand);
-  cursor: pointer;
 }
 .footer {
   background-color: #2f303a;
