@@ -21,6 +21,10 @@ body {
   font-weight: 400;
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   background-color: var(--color-primary-light);
 }
@@ -41,9 +45,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.28px;
 }
-.header-link:hover {
+.header-link:hover,
+.header-link.current {
   color: var(--color-brand);
 }
+
 .contact-link {
   color: var(--color-secondary);
   font-weight: 500;
@@ -70,6 +76,9 @@ body {
   color: var(--color-primary-light);
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
+.footer .contact-link {
+  color: rgba(255, 255, 255, 0.6);
 }
 .main {
   background-color: var(--color-primary-light);
@@ -104,8 +113,8 @@ body {
 .section-second {
 }
 .section-second h3 {
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.17;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
@@ -123,6 +132,9 @@ body {
   letter-spacing: 1.08px;
 }
 .section-team {
+}
+.section-team li {
+  background-color: #ffffff;
 }
 .section-team h2 {
   text-align: center;
