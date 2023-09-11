@@ -79,6 +79,9 @@ body {
 }
 .footer .contact-link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 .main {
   background-color: var(--color-primary-light);
@@ -132,6 +135,7 @@ body {
   letter-spacing: 1.08px;
 }
 .section-team {
+  background-color: #f5f4fa;
 }
 .section-team li {
   background-color: #ffffff;
